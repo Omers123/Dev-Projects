@@ -104,17 +104,16 @@ main {
     align-content: flex-start;
     flex-wrap: wrap;
 }
-.locations {
+#location {
+   max-width: 1200px;
+    height: 700px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1u4ioo5*_gcl_au*MjEwNzY4MDgxMi4xNzU0ODczNTgx*_ga*MTgzNDQ1OTEzOC4xNzMwOTQ2MTQ0*_ga_3LRZM6TM9L*czE3NTc4NzY1NDckbzIyJGcxJHQxNzU3ODc2NjE1JGo1NyRsMCRoMA..);
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    height: 500px;
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*wvca68*_gcl_au*MjEwNzY4MDgxMi4xNzU0ODczNTgx*_ga*MTgzNDQ1OTEzOC4xNzMwOTQ2MTQ0*_ga_3LRZM6TM9L*czE3NTc4NzY1NDckbzIyJGcxJHQxNzU3ODc2NjE1JGo1NyRsMCRoMA..);
-    line-height: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
 }
 #location-heading {
-    justify-content: center;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -126,6 +125,7 @@ main {
     text-align: center;
     flex-direction: column;
     opacity: 1; 
+    
 }
 footer {
     width: 100%;
