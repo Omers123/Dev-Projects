@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+main {
+    margin-top: 138px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Header*/
+.top-navigation {
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+#logo {
+    justify-content: flex-start;
+}
+#logo img {
+    margin: 10px;
+    height: 50px;
+}
+#navbar {
+    justify-content: flex-end;
+}
+#navbar li {
+    text-decoration: underline;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Main*/
+.ourMission {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#background {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*2kfa3j*_gcl_au*MjEwNzY4MDgxMi4xNzU0ODczNTgx*_ga*MTgzNDQ1OTEzOC4xNzMwOTQ2MTQ0*_ga_3LRZM6TM9L*czE3NTc2MzUxNDYkbzIwJGcxJHQxNzU3NjM2MzgxJGo1NyRsMCRoMA..);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+#paragraph {
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    height: 14%;
+    line-height: 0.1px;
+}
+.teaOfTheMonth {
+    max-width: 1000px;
+    display: flex;
+    flex: 1 1 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sectionHeadline {
+    display: block;
+    margin-top: 69px;
+}
+.flexDivTea {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 70px;
+}
+.flexDivTea img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.flexDivTea h4 {
+    margin-top: 10px;
+}
+.myrtle {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.bedford {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*wvca68*_gcl_au*MjEwNzY4MDgxMi4xNzU0ODczNTgx*_ga*MTgzNDQ1OTEzOC4xNzMwOTQ2MTQ0*_ga_3LRZM6TM9L*czE3NTc4NzY1NDckbzIyJGcxJHQxNzU3ODc2NjE1JGo1NyRsMCRoMA..);
+    line-height: 15px;
+}
+#location-heading {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.downtown, .east, .oakdale {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    flex-direction: column;
+    opacity: 1; 
+}
+footer {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 69px;
+}
+
+#copyright {
+    margin-left: 20px;
+    text-align: left;
+}  

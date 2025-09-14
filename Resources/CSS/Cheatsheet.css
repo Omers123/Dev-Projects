@@ -1,0 +1,38 @@
+h1 {
+    border: 2px solid rgb(239, 243, 31);
+    background-color: rgb(12, 148, 233);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Oswald, monospace;
+}
+
+.main {
+    border: 2px solid rgb(204, 189, 101);
+    background-color: rgb(250, 247, 64);
+    text-align: center;
+}
+
+.content {
+    border: 2px solid rgb(241, 42, 7);
+    background-color: rgb(9, 145, 199);
+    text-align: left;
+}
+
+footer p {
+    border: 5px dotted rgb(230, 219, 74);
+    background-color: rgb(12, 148, 233);
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Oswald, monospace;
+}
+
+body {
+    background-color: rgb(110, 204, 165);
+}
+
+button {
+    height: 50px;
+}
+
